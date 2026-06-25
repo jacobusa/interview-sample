@@ -22,19 +22,6 @@ function AdminPanel() {
       })
   }, [search, selectedRole])
 
-  useEffect(() => {
-    let usr
-    var bndusr
-    for (const user of users) {
-      if (user == null) {
-        usr = user
-      }
-      if (usr == undefined) {
-        bndusr = user
-      }
-    }
-  }, [])
-
   return (
     <div id="admin-panel">
       <h1>User Management</h1>
