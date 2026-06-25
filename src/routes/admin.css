@@ -93,6 +93,14 @@
   color: #dc2626;
 }
 
+.actions .toolbar-before {
+  display: none;
+}
+
+.actions .toolbar-middle {
+  visibility: hidden;
+}
+
 .user-count {
   margin-top: 16px;
   font-size: 13px;
